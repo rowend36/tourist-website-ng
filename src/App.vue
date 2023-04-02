@@ -1,0 +1,10 @@
+<script setup lang="ts">
+import { RouterView } from "vue-router";
+import AppHeader from "./components/AppHeader.vue";
+import "./styles/app.css";
+</script>
+
+<template>
+  <AppHeader />
+  <RouterView />
+</template>
