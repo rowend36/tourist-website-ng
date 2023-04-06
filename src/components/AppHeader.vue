@@ -31,7 +31,7 @@ let scroll = useWindowScroll();
 .nav-routes-root {
   padding: 16px 8px;
   color: white;
-  background: rgba(0, 20, 50, 0.2);
+  background: rgba(0, 20, 50, 0.1);
   display: flex;
   justify-content: center;
   transition: background-color 1s;
@@ -99,7 +99,7 @@ let scroll = useWindowScroll();
   .nav-routes-align {
     flex-direction: column;
     max-height: 100vh;
-    transition: max-height 0.2s;
+    transition: max-height 0.1s;
     overflow: hidden;
   }
 
